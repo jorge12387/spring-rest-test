@@ -1,4 +1,4 @@
-package org.spring.test.mvn;
+package org.spring.test.mvc;
 
 import org.spring.test.rest.SimpleRequest;
 import org.springframework.http.MediaType;
@@ -7,9 +7,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created by user on 1/5/2017.

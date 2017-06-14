@@ -26,10 +26,23 @@
         <url-pattern>/rest/*</url-pattern>
     </servlet-mapping>
 
+
     <servlet-mapping>
         <servlet-name>mvc-spring-dispatcher</servlet-name>
-        <url-pattern>/api/*</url-pattern>
-        <url-pattern>*.html</url-pattern>
+        <url-pattern>/*</url-pattern>
+        <!--<url-pattern>*.html</url-pattern>-->
     </servlet-mapping>
 
+
+    <!--
+    <servlet>
+        <servlet-name>web-socket</servlet-name>
+        <servlet-class>org.spring.test.socket.MySocket</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>web-socket</servlet-name>
+        <url-pattern>/websocket/*</url-pattern>
+    </servlet-mapping>
+    -->
 </web-app>

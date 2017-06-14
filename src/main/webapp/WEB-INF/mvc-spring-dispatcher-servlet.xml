@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 
-    <context:component-scan base-package="org.spring.test.mvn" />
+    <context:component-scan base-package="org.spring.test.mvc" />
     <mvc:annotation-driven />
 
     <bean id="ViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
